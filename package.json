@@ -1,0 +1,24 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "learning js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puss1juic3/excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "puss1juic3 <puss1juic3@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puss1juic3/excel/issues"
+  },
+  "homepage": "https://github.com/puss1juic3/excel#readme"
+}
