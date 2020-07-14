@@ -1,0 +1,7 @@
+@import "variables";
+@import "mixins";
+
+.button {
+  @include button-reset;
+  @include button(red);
+}
