@@ -4,7 +4,9 @@
   "description": "learning js",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/puss1juic3/excel/issues"
   },
-  "homepage": "https://github.com/puss1juic3/excel#readme"
+  "homepage": "https://github.com/puss1juic3/excel#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
