@@ -7,25 +7,29 @@
   cursor: pointer;
 }
 
-@mixin button($color: green) {
+@mixin button($color:green) {
+  outline: none;
+
   height: 25px;
   min-width: 25px;
   padding: 3px;
   text-align: center;
   position: relative;
 
+  background-color: rgba(238, 238, 238, .10);
+  transition: background-color .15s ease;
 
   & i {
     font-size: 18px;
     color: #111111;
   }
 
-  &:active, &.active {
-    color: $color;
-  }
-
   &:hover {
-    background: #eee;
     cursor: pointer;
+    background-color: rgba(238, 238, 238, 1);
+
+    i {
+      color: $color;
+    }
   }
 }
