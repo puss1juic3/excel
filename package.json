@@ -18,7 +18,9 @@
     "excel",
     "webpack",
     "scss",
-    "babel"
+    "babel",
+    "eslint",
+    "BEM"
   ],
   "browserslist": "> 0.25%, not dead",
   "author": "puss1juic3 <puss1juic3@gmail.com>",
@@ -39,6 +41,7 @@
     "eslint": "^7.4.0",
     "eslint-config-google": "^0.14.0",
     "eslint-loader": "^4.0.2",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "sass": "^1.26.10",
@@ -48,6 +51,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.10.4"
+    "@babel/polyfill": "^7.10.4",
+    "normalize-css": "^2.3.1"
   }
 }

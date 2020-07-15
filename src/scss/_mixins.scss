@@ -1,0 +1,42 @@
+@import "variables";
+
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin button($color:green) {
+  outline: none;
+
+  height: 25px;
+  min-width: 25px;
+  padding: 3px;
+  text-align: center;
+  position: relative;
+
+  background-color: rgba(238, 238, 238, .10);
+  transition: background-color .15s ease;
+
+  & i {
+    font-size: 18px;
+    color: #111111;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(238, 238, 238, 1);
+
+    i {
+      color: $color;
+    }
+  }
+}
+
+@mixin table-border() {
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+}

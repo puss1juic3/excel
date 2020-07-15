@@ -1,5 +1,37 @@
-$blue: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import "~normalize-css";
+
+@import "dashboard";
+
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "table";
+
+@import "input";
+@import "button";
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background-color: $blue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.excel {
+  max-width: 100%;
+
+  position: relative;
+  color: $table-font-color;
 }
