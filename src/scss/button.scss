@@ -3,5 +3,4 @@
 
 .button {
   @include button-reset;
-  @include button(red);
 }

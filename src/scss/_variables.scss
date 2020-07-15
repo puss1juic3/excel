@@ -1,9 +1,14 @@
-/* Common */
+/*
+ Dashboard
+*/
 
-$table-font-color: #888;
+/* Header */
+$dashboard-header-height: 64px;
 
 
-$border-color: #c0c0c0;
+/*
+ Table
+*/
 
 /* Header */
 $header-height: 34px;
@@ -13,9 +18,14 @@ $toolbar-height: 34px;
 
 /* Formula */
 $formula-height: 24px;
+
 $info-cell-width: 40px;
 
 /* Table */
 $row-height: 24px;
 
+$table-font-color: #888;
+
 $cell-width: 120px;
+
+$border-color: #c0c0c0;

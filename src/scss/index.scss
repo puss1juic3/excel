@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 @import "~normalize-css";
+
+@import "dashboard";
 
 @import "header";
 @import "toolbar";
@@ -9,15 +18,15 @@
 @import "input";
 @import "button";
 
-* {
+ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .excel {
