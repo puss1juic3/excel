@@ -1,18 +1,8 @@
 @import "variables";
 @import "mixins";
 
-.input {
+input.input {
   outline: none;
   border: none;
-
-  font-size: 15px;
-
-  border-radius: 3px;
-  padding: 7px 10px;
-
-  border-bottom: 2px solid transparent;
-
-  &:focus {
-    border-bottom: 2px solid $border-color;
-  }
 }
+

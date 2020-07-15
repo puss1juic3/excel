@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 
-.exel__header {
+.excel__header {
   position: absolute;
   top: 0;
   right: 0;
@@ -12,5 +12,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  .input {
+    color: #111111;
+    font-size: 15px;
+
+    border-radius: 3px;
+    padding: 7px 10px;
+
+    border-bottom: 2px solid transparent;
+
+    &:focus {
+      border-bottom: 2px solid $border-color;
+    }
+  }
 
 }
