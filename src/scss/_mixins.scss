@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin button-reset {
   padding: 0;
   border: none;
@@ -32,4 +34,9 @@
       color: $color;
     }
   }
+}
+
+@mixin table-border() {
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
