@@ -6,7 +6,8 @@
     "node": true
   },
   "rules": {
-
+    "require-jsdoc": "off",
+    "no-unused-vars": "warn"
   },
 
   "extends": [
