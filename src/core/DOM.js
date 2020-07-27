@@ -50,8 +50,31 @@ class DOM {
     return this.$el.getBoundingClientRect();
   }
 
+  find(selector) {
+    return $(this.$el.querySelector(selector));
+  }
+
   findAll(selector) {
     return this.$el.querySelectorAll(selector);
+  }
+
+  addClass(className) {
+    return this.$el.classList.add(className);
+  }
+
+  removeClass(className) {
+    return this.$el.classList.remove(className);
+  }
+
+  getId(parse) {
+    if (parse) {
+      const parsed = this.getId().split(':');
+      return {
+        row: +parsed[0],
+        col: +parsed[1],
+      };
+    }
+    return this.data.id;
   }
 
   css(styles = {}) {

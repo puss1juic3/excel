@@ -6,7 +6,7 @@ export class Toolbar extends ExcelComponent {
   constructor($root, options) {
     super($root, {
       name: 'Toolbar',
-      listeners: ['click'],
+      listeners: [],
     });
   }
 
@@ -31,9 +31,5 @@ export class Toolbar extends ExcelComponent {
             <i class="material-icons">format_underline</i>
         </button>
     `;
-  }
-
-  onClick(event) {
-    console.log(event.target);
   }
 }

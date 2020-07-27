@@ -8,7 +8,8 @@
   "rules": {
     "require-jsdoc": "off",
     "no-unused-vars": "warn",
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "max-len": "off"
   },
 
   "extends": [

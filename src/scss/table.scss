@@ -11,14 +11,13 @@
   .row {
     display: flex;
     flex-direction: row;
-    height: $row-height;
+    min-height: $row-height;
   }
 
   .row-info {
     position: relative;
 
     min-width: $info-cell-width;
-    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -64,7 +63,7 @@
     &.selected {
       width: $cell-width;
       border: none;
-      outline: 1px solid $prime-blue;
+      outline: 2px solid $prime-blue;
       z-index: 2;
     }
 
